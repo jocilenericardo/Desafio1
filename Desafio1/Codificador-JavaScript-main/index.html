@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Decodificador e Codificador</title>
+    <link rel="stylesheet" href="estilo/style.css">
+    <link rel="stylesheet" href="estilo/mobile.css">
+    <link rel="shortcut icon" href="imagens/gatodebinoculos.jpg" type="image/x-icon">
+</head>
+<body>
+     <main class="main container">
+         <header class="cabecalho">
+           <img src="imagens/gatodebinoculos.jpg" alt="Gatinho de Binóculos">
+           <h1>Mensagens Codificadas</h1>
+         </header>
+         <div class="container-input">
+         <div class="input">
+            <textarea  id="input-texto" placeholder="Digite o seu texto aqui..."></textarea>
+            <p>ATENÇÃO: Apenas letras maiusculas e sem acentos!</p>
+        </div>
+
+
+         <div id="output">
+            <img src="imagens/gatodebinoculos.jpg" alt="Gatinho de Binóculos" height="330px" width="400px">
+            <h2>Sua mensagem aparecerá aqui!</h2>
+            <span>Digite um texto que deseja criptografar ou descriptografar aqui.</span>
+         </div>
+        </div>
+
+        
+         <div class="buttons">
+             <div class="container-bnt">
+                <button  onclick="criptografar()" class="btn-criptografar">Criptografar</button>
+                <button  onclick="descriptografar()" class="btn-descriptografar">Descriptografar</button>
+             </div>
+            
+         </div>
+     </main>
+
+    
+</body>
+</html>
